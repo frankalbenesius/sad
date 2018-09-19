@@ -1,0 +1,86 @@
+/*
+COLORS:
+*/
+
+html,
+body {
+  --dark-purple: #2b193d;
+  --deep-koamaru: #2c365e;
+  --independence: #484d6d;
+  --steel-teal: #4b8f8c;
+  --tuscany: #c5979d;
+
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+  background-color: var(--dark-purple);
+  color: var(--independence);
+  font-family: "Roboto", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Merriweather", serif;
+}
+
+.container {
+  padding: 0.5rem 1rem;
+  max-width: 50rem;
+  margin: 0 auto;
+}
+
+header {
+  background-color: var(--steel-teal);
+  color: white;
+}
+
+section.purple {
+  color: white;
+}
+
+section.light.purple {
+  background-color: var(--independence);
+}
+section.dark.purple {
+  background-color: var(--deep-koamaru);
+}
+
+footer {
+  font-size: 0.7rem;
+}
+
+section.sad-pug-image {
+  background-image: url(images/sad-pug.jpg);
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: center;
+  background-origin: fixed;
+  background-size: 100%;
+  height: 15rem;
+}
+
+div.quote {
+  font-family: "Merriweather", serif;
+  display: inline-block;
+  font-size: 1.1rem;
+  margin-top: 5%;
+  padding: 1rem;
+  background: rgba(255, 255, 255, 0.5);
+  color: black;
+}
+
+@media screen and (min-width: 60rem) {
+  section.sad-pug-image {
+    height: 20rem;
+  }
+}
+
+@media screen and (min-width: 70rem) {
+  section.sad-pug-image {
+    height: 28rem;
+  }
+}
